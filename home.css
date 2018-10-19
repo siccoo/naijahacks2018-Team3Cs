@@ -1,43 +1,151 @@
 html {
-    overflow-y: scroll;
+    margin: auto;
+    padding: 0;
+    overflow: unset;
+
 }
 
 body {
-    /* background-image: url(./images/Agric1.jpeg); */
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
-    line-height: 1rem;
+    /* line-height: 1rem; */
+    width: 100%;
 }
 
 header {
-    margin: auto;
-    width: 80%;
-    height: 5%;
-    color: #008000;
-    background-color: #ffffff;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    z-index: 99;
-    background: #fff;
-    padding: 20px 5vw;
-    /* text-align: center; */
-    min-height: 5px;
+    max-width: none;
+    box-shadow: #e2e3db;
+    border-bottom: #e2e3db;
 }
 
-.f-connect-logo > .logo img {
+input[type=search] {
+    /* float: right; */
+    padding: 6px;
+    border: 1px solid;
+    border-radius: 3px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+.navigate  {
+    max-width: none;
+    margin: auto;
+}
+
+nav {
+    background: #ffffff;
+    position: absolute;
+    top: 0%;
+    left: 27%;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    color: #008000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav a:hover{
+    background-color: #71c837;
+}
+
+nav li {
+    /* position: absolute; */
+    padding: 0px 20px 0px 20px;
+
+}
+
+@media screen and (min-width: 768px){
+    nav ul {
+        display: flex;
+    }
+
+   
+}
+
+.navigate > .logo img {
     height: 100%;
     width: auto;
 }
-img {
-    /* vertical-align: left; */
-    vertical-align: baseline;
-    height: 45px;
-    width: auto;
 
+.f-connect-logo {
+    display: flex;
+    justify-content: space-between;
 }
 img {
-    border: 0;
+
+    height: 40px;
+    width: auto;
+    justify-content: left;
+    
+
+}
+
+.f-images {
+    height: 500px;
+    background-image: url(./images/agric-location.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.farmer-des {
+    margin-top: -20px;
+    height: 150px;
+    /* background-color: #008000; */
+    background-color: #225500;
+    color: #fff;
+    text-align: center;
+    /* padding: 70px; */
+}
+
+.farmer-des h3{
+    padding: 50px;
+}
+
+.main-container{
+    display: flex;
+    width: 100;
+    justify-content: space-around;
+    /* background-image: url(./images/maze.jpg); */
+    height: 250px;
+}
+
+
+
+/*  Footer Styling */
+.footer {
+    margin-top: -20px;
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #808080;
+    color: #fff;
+    height: 300px;
+}
+
+.row {
+    /* position: relative;
+    min-height: fit-content;
+    padding-right: 15px;
+    padding-left: 15px; */
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+h3 {
+    font-weight: bolder;
 }

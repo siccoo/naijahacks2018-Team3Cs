@@ -1,0 +1,223 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+@media screen and (min-width: 768px){
+  body{
+    font-family: Tahoma;
+    box-sizing: border-box;
+    /* width: 100vw; */
+  } 
+}
+
+/* Styling for header */
+
+header {
+
+  max-width: none;
+
+  box-shadow: #e2e3db;
+
+  border-bottom: #e2e3db;
+  position: sticky;
+
+}
+
+
+
+input[type=search] {
+
+  /* float: right; */
+
+  padding: 6px;
+
+  border: 1px solid;
+
+  border-radius: 3px;
+
+  margin-top: 8px;
+
+  margin-right: 16px;
+
+  font-size: 17px;
+
+}
+
+
+
+.navigate  {
+
+  max-width: none;
+
+  margin: auto;
+
+}
+
+
+
+nav {
+
+  background: #ffffff;
+
+  position: absolute;
+
+  top: 0%;
+
+  left: 27%;
+
+}
+
+
+
+nav ul{
+
+  list-style-type: none;
+
+  padding: 0;
+
+}
+
+
+
+nav a {
+
+  text-decoration: none;
+
+  text-align: center;
+
+  display: block;
+
+  padding: 10px;
+
+  color: #616c22;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+
+nav a:hover{
+
+  background-color: #94ac09;
+
+}
+
+nav li {
+
+  /* position: absolute; */
+
+  padding: 0px 20px 0px 20px;
+
+}
+
+
+
+@media screen and (min-width: 768px){
+
+  nav ul {
+
+      display: flex;
+
+  }
+}
+.navigate > .logo img {
+
+  height: 100%;
+
+  width: auto;
+
+}
+.f-connect-logo {
+
+  display: flex;
+
+  justify-content: space-between;
+
+}
+
+img {
+  height: 40px;
+
+  width: auto;
+
+  justify-content: left;
+}
+
+/* main section styling */
+
+.t-container{
+  /* width: 100%; */
+  margin-top: 10rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 2;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+
+
+
+/*  Footer Styling */
+
+.footer {
+
+  margin-top: 10rem;
+
+  position: static;
+
+  left: 0;
+
+  bottom: 0;
+
+  width: 100%;
+
+  background-color: #808080;
+
+  color: #fff;
+
+  height: 300px;
+
+}
+
+
+
+.row {
+  display: flex;
+
+  width: 100%;
+
+  justify-content: space-around;
+
+}
+
+h3 {
+
+  font-weight: bolder;
+
+}
+
+.box-div{
+  margin-top: 4rem;
+}
+
+.box-div p{
+  margin-top: 1rem
+}
+
